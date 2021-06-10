@@ -13,14 +13,13 @@ class Connector
         $this->url= $url;
         $this->params= $params;
         $this->headers= $headers;
-        print "En el constructor BaseClass\n";
     }
     public function getRequest()
     {
         $params     = $this->params;
         $headers    = $this->headers;
         $url        = $this->url;
-        
+
         //datos a enviar
         $data = $params;
         //url contra la que atacamos
@@ -41,7 +40,7 @@ class Connector
         if(!$response) {
             return false;
         }else{
-            var_dump($response);
+            return $response;
         }
     }
 

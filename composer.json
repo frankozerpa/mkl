@@ -1,5 +1,5 @@
 {
-    "name": "marketplace/conector-mirakl",
+    "name": "libsintegraciones/conector-mirakl",
     "description": "Consultar datos en la api de MIRAKL",
     "type": "library",
     "require": {

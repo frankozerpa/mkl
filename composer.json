@@ -3,8 +3,8 @@
     "description": "Consultar datos en la api de MIRAKL",
     "type": "library",
     "require": {
-        "php": "^8.0",
-        "laravel/framework": "^9.0"
+        "php": "^8.0"
+        
     },
     "require-dev": {
         "phpunit/phpunit": "10.0.x-dev",
